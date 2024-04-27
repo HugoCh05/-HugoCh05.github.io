@@ -3,8 +3,11 @@
 	src: url("../fonts/RAVIE.TTF") format("opentype");
 }
 
-h1{
+.titulo{
 	text-align: center;
+	font-family: "Ravie", serif;
+	color: white;
+	font-size: 400%;
 }
 
 nav{
@@ -38,20 +41,20 @@ background-color: lightblue;
 
 #texto{
 width: 100%;
-position: fixed;
+position: absolute;
 left: -0.01%;
 top: -0.01%;
-background-color: lightblue;
 }
+
 .principal{
 	float: left;
-	margin-left: 25%;
+	margin-left: 20%;
 }
 
 .lema{
 	color: rgb(240, 124, 0);
 	display: inline-block;
-	margin-left: 20%;
+	margin-left: 15%;
 	margin-top: 7%;
 	text-align: center;
 	font-family: "Ravie", serif;
