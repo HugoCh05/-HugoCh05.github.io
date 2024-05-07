@@ -13,6 +13,16 @@
 	font-family: "Ravie", serif;
 	color: white;
 	font-size: 400%;
+	margin-bottom: 0%;
+}
+
+span{
+	color: orange;
+	text-shadow: 2px  0px 0px black,
+               0px  2px 0px black,
+              -2px  0px 0px black,
+               0px -2px 0px black;
+    text-decoration: none;
 }
 
 nav{
@@ -33,9 +43,15 @@ nav div{
 }
 
 main{
+	margin-top: 80px;
 	margin-right: 5%;
 	margin-left: 5%;
-	margin-top: 5%;
+	font-family: "Pato", serif;
+	color: white;
+	text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
 }
 
 footer{
@@ -44,10 +60,19 @@ footer{
 
 body{
 	line-height: 1.6;
+	background-color: rgb(0, 73, 140);
 }
 
 header{
 	padding-bottom: 1%;
+}
+
+table{
+	width: 100%;
+}
+
+#arte{
+	text-align: center;
 }
 
 #back{
@@ -78,6 +103,7 @@ font-size: 150%;
 	text-align: center;
 	font-family: "Ravie", serif;
 	line-height: 1.4;
+	margin-top: 0%;
 }
 
 
@@ -87,7 +113,7 @@ font-size: 150%;
 }
 
 .menu2{
-	color: black;
+	color: white;
 	text-decoration: none;
 }
 
@@ -97,7 +123,11 @@ font-size: 150%;
 }
 
 .menu2:hover{
-	color: red;
+	color: orange;
+	text-shadow: 2px  0px 0px black,
+               0px  2px 0px black,
+              -2px  0px 0px black,
+               0px -2px 0px black;
 	text-decoration: none;
 }
 
@@ -144,10 +174,13 @@ footer{
 aside{
 	position: fixed;
 	z-index: 1;
-	padding: 5%;
 	width: 20%;
-	top: 0%;
-	left: -5%;
+	top: 60px;
+	color: white;
+	text-shadow: 1px  0px 0px black,
+               0px  1px 0px black,
+              -1px  0px 0px black,
+               0px -1px 0px black;
 }
 
 #dibujos{
@@ -166,6 +199,13 @@ aside{
 	}
 }
 
+@media screen and (max-width: 1000px){
+
+	aside{
+		font-size: 70%;
+	}
+}
+
 
 @media screen and (max-width: 500px){
 	.lema{
@@ -177,6 +217,5 @@ aside{
 	}
 
 	nav div{
-		font-size: 45%;
+		font-size: 70%;
 	}
-}
